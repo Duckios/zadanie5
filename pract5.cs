@@ -36,7 +36,7 @@ namespace pract5
             {
                 for (int i = 0; i < stud.Count; i++)
                 {
-                    if (stud[i].ids == ids) stud.RemoveAt(i); // Console.WriteLine(i.id);
+                    if (stud[i].ids == ids) stud.RemoveAt(i); 
                 }
             }
             public void izmen(int ids, string fio, int group, string data)
@@ -49,7 +49,7 @@ namespace pract5
                         stud[i].group = group;
                         stud[i].data = data;
                     }
-                    // Console.WriteLine(i.id);
+                    
                 }
             }
             public void show()
